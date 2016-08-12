@@ -10,7 +10,7 @@
 // @exclude     http://tsumino.com/Contribute/*
 // @require     https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js
 // @author      ZerataX
-// @version     0.1
+// @version     0.2
 // @grant       none
 // ==/UserScript==
 
@@ -56,6 +56,7 @@ function loopLi() {
 }
 
 $('#export-books').click(function() {
+    book_info = "";
     finished = 0;
     $(loopLi);
 });
