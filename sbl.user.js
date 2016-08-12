@@ -23,8 +23,6 @@ $(document).ready(function(){
     $('.col-md-12').append('<div class="col-md-12"><button id="export-books">Export Books</button>');
 });
 
-
-
 function getBookInfo() {
     books = $('.book-grid-item-container');
     console.log("Books: " + books.length);
