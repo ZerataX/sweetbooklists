@@ -10,7 +10,7 @@
 // @exclude     http://tsumino.com/Contribute/*
 // @require     https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js
 // @author      ZerataX
-// @version     0.2
+// @version     0.3
 // @grant       none
 // ==/UserScript==
 
@@ -35,13 +35,13 @@ function getBookInfo() {
 }
 
 function loopLi() {
-    getBookInfo();
     setInterval(function() { // this code is executed every 500 milliseconds:
 
         if($('.next.disabled').length === 0 && finished === 0) {
             getBookInfo();
             console.log("Next page");
         }else if (finished === 0){
+            getBookInfo();
             finished = 1;
             console.log("Finished");
             if (confirm("Save list to file?") === true) {
