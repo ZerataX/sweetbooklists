@@ -52,7 +52,7 @@ function loopLi() {
             }
 
         }
-    }, 2000);
+    }, 3500);
 }
 
 $('#export-books').click(function() {
