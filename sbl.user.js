@@ -10,7 +10,7 @@
 // @exclude     http://tsumino.com/Contribute/*
 // @require     https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js
 // @author      ZerataX
-// @version     0.4
+// @version     1.0
 // @grant       none
 // ==/UserScript==
 
