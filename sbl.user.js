@@ -2,6 +2,7 @@
 // @name        sweetbooklists
 // @namespace   zeratax@firemail.cc
 // @description Exports a list of books by the given search parameters from tsumino
+// @license     GPL-3.0
 // @include     http://www.tsumino.com/*
 // @include     http://tsumino.com/*
 // @exclude     http://tsumino.com/Forum/*
