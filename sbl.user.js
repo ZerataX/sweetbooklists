@@ -1,18 +1,19 @@
 // ==UserScript==
-// @name        sweetbooklists
-// @namespace   zeratax@firemail.cc
-// @description Exports a list of books by the given search parameters from tsumino
-// @license     GPL-3.0
-// @include     http://www.tsumino.com/*
-// @include     http://tsumino.com/*
-// @exclude     http://tsumino.com/Forum/*
-// @exclude     http://tsumino.com/Account/*
-// @exclude     http://tsumino.com/About/*
-// @exclude     http://tsumino.com/Contribute/*
-// @require     https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js
-// @author      ZerataX
-// @version     1.0
-// @grant       none
+// @name          sweetbooklists
+// @version       1.0
+// @description   Exports a list of books by the given search parameters from tsumino
+// @author        ZerataX
+// @namespace     mail@zera.tax
+// @license       MIT
+// @updateURL     https://openuserjs.org/meta/ZerataX/sbl.meta.js
+// @include       http://www.tsumino.com/*
+// @include       http://tsumino.com/*
+// @exclude       http://tsumino.com/Forum/*
+// @exclude       http://tsumino.com/Account/*
+// @exclude       http://tsumino.com/About/*
+// @exclude       http://tsumino.com/Contribute/*
+// @require       https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js
+// @grant         none
 // ==/UserScript==
 
 var books;
