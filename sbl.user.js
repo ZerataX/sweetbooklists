@@ -5,7 +5,7 @@
 // @author        ZerataX
 // @namespace     mail@zera.tax
 // @license       MIT
-// @updateURL     https://openuserjs.org/meta/ZerataX/sbl.meta.js
+// @updateURL     https://openuserjs.org/meta/ZerataX/sweetbooklists.meta.js
 // @include       http://www.tsumino.com/*
 // @include       http://tsumino.com/*
 // @exclude       http://tsumino.com/Forum/*
